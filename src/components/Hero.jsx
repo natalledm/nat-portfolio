@@ -1,5 +1,5 @@
 export default function Hero() {
-  return(
-    "Hero here"
+  return (
+    <h1>Hi! I’m Natalle, a Frontend Developer</h1>
   );
 };
