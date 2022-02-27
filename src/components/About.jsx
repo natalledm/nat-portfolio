@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className='about'>
       <div className="about-container">
-        <h1 className='about-title'>About me</h1>
+        <h1>About me</h1>
         <p className='about-paragraph'>
           I am a person that is passionate about technologies, colors, games, and everything related to words.
           I have a background in Linguistics and I love reading, translating, and writing.

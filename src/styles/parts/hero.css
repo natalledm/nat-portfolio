@@ -16,6 +16,7 @@
 
 .hero-title {
   align-self: center;
+  font-size: 3rem;
   line-height: 4rem;
   color: #4D5166;
   text-shadow: 1px 1px 0 var(--soft-white);
