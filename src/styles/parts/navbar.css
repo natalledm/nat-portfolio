@@ -1,0 +1,26 @@
+.navbar {
+  width: 100vw;
+  height: 7vh;
+  position: fixed;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.navbar-list {
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--very-peri);
+  border-radius: 40px;
+}
+
+.navbar-list-item {
+  background-color: var(--very-peri);
+  color: var(--soft-white);
+}
