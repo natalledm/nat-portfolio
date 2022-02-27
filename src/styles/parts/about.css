@@ -1,0 +1,16 @@
+.about {
+  background-color: var(--soft-violet);
+  width: 100%;
+}
+
+.about-container {
+  margin: 0 2rem;
+}
+
+.about-title {
+  margin-bottom: 2rem;
+}
+
+.about-paragraph {
+  margin-bottom: 2rem;
+}
