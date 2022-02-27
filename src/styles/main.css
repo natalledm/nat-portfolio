@@ -1,7 +1,7 @@
 :root {
   --very-peri: #6667ab;
   --soft-violet: #8f8cb8;
-  --soft-beige: #d5cabd;
+  --soft-gray: #EEEEEE;
   --soft-white: #f9f8ff;
   --black: #000;
 }
@@ -49,5 +49,7 @@ a {
 }
 
 h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
   margin-bottom: 2rem;
 }

@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+}
+
+.footer-container {
+  padding-top: 5rem;
+}
+
+.footer-contact {
+  margin-left: 2rem;
+}
+
+.footer-paragraph {
+  margin-bottom: 2rem;
+}
+
+.contact-list-containter {
+  margin-bottom: 2rem;
+}
+
+.footer-social {
+  background-color: var(--very-peri);
+  text-align: center;
+  padding: 2rem;
+}
+
+.copyright {
+  padding-top: 2rem;
+}
