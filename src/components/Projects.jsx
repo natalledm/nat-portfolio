@@ -1,4 +1,4 @@
-import '../styles/parts/projects.css';
+import '../styles/components/projects.css';
 import ProjectCard from './project-components/ProjectCard';
 import { projects } from '../data/projectsData';
 
@@ -11,8 +11,8 @@ export default function Projects() {
   });
 
   return (
-    <section className="projects-section">
-      <div className="projects-container">
+    <section className="projects">
+      <div className="projects-content">
         <h1>Projects</h1>
         <p className='project-paragraph'>
           Here are the projects I will be making during the Frontend course at Novare Potential.
