@@ -1,4 +1,4 @@
-[
+export const techlist = [
   {
     "name": "Javascript",
     "icon": "javascript.png"
@@ -38,5 +38,5 @@
   {
     "name": "TBD",
     "icon": "no-icon.png"
-  }
-]
+  },
+];

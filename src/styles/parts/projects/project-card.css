@@ -1,0 +1,37 @@
+.project-card {
+  width: 156px;
+  height: 164px;
+}
+
+.card-image-container {
+  background-color: var(--very-peri);
+  border-radius: 8px;
+  height: 116px;
+}
+
+.project-card-image {
+  width: 100%;
+  height: 116px;
+  border-radius: 8px;
+}
+
+.project-card-name {
+  width: 100%;
+  height: 44px;
+  line-height: 22px;
+}
+
+.not-done {
+  opacity: 0.4;
+  object-fit: cover;
+}
+
+.project-card-coming-soon {
+  position: relative;
+  top: -75px;
+  left: 50px;
+  width: 10px;
+  color: var(--soft-white);
+  font-weight: bold;
+  text-transform: uppercase;
+}
