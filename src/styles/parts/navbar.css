@@ -4,6 +4,7 @@
   position: fixed;
   margin: 0 auto;
   padding: 2rem;
+  z-index: 100;
 }
 
 .logo {
