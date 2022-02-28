@@ -12,3 +12,9 @@
 .project-paragraph {
   padding-bottom: 2rem;
 }
+
+.projects-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
