@@ -1,4 +1,4 @@
-export const techlist = [
+export const techlistData = [
   {
     "name": "Javascript",
     "icon": "javascript.png"
@@ -9,7 +9,7 @@ export const techlist = [
   },
   {
     "name": "Git",
-    "icon": "github.png"
+    "icon": "git.png"
   },
   {
     "name": "Firebase",
@@ -17,19 +17,19 @@ export const techlist = [
   },
   {
     "name": "CSS",
-    "icon": "css.png"
+    "icon": "css-icon.png"
   },
   {
     "name": "Sass",
     "icon": "sass.png"
   },
   {
-    "name": "TBD",
-    "icon": "no-icon.png"
+    "name": "Figma",
+    "icon": "figma.png"
   },
   {
-    "name": "TBD",
-    "icon": "no-icon.png"
+    "name": "Typescript",
+    "icon": "typescript.png"
   },
   {
     "name": "TBD",

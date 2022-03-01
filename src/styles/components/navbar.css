@@ -3,8 +3,9 @@
   height: 7vh;
   position: fixed;
   margin: 0 auto;
-  padding: 2rem;
+  padding-top: 0.8rem;
   z-index: 100;
+  background-color: rgba(86, 86, 158, 0.562);
 }
 
 .logo {

@@ -1,13 +1,15 @@
-import '../../data/techstackData.json';
+import '../styles/components/techlist.css'
 
-export default function TechList() {
+export default function TechList(tech) {
 
-  //ver como filtrar itens do json, talvez criar um map pra retornar uma lista feita
- 
+  const { name, icon } = tech;
+
+  const iconPath = `icons/${icon}`;
+  
   return(
-    <div className='tech-container'>
-      <img src={icon} alt="" />
-      <p>{name}</p>
+    <div className='techlist'>
+      <img src={iconPath} alt="" className='tech-image'/>
+      <p className='tech-name'>{name}</p>
     </div>
   )
 }

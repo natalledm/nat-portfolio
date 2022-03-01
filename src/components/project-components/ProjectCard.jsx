@@ -2,7 +2,7 @@ import '../../styles/components/project-card.css';
 
 export default function ProjectCard(project) {
   // think about a way to show different photos or a thumbnail of the project
-  const { name, image, isFinished } = project
+  const { name, image, isFinished } = project;
   // onClick em todo o div do card
 
   if (!isFinished) return (

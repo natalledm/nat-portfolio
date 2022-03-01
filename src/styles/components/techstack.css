@@ -1,15 +1,17 @@
 .techstack {
-  width: 100%;
   height: fit-content;
-  padding-bottom: 5rem;
-}
-
-.techstack-content {
-  width: auto;
-  height: auto;
-  margin: 0 2rem;
+  background-color: var(--soft-violet);
+  padding: 2rem;
 }
 
 .techstack-paragraph {
-  margin-bottom: 2rem;
+  padding: 0 2rem 2rem 0;
+}
+
+.tech-icons-container {
+  width: 328px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
