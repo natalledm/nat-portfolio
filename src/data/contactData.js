@@ -8,7 +8,7 @@ export const contactData = [
     "info": "+46 72 501 12 70"
   },
   {
-    "icon": "map-marker.png",
+    "icon": "map-pin.png",
     "info": "Stockholm, Sweden"
   },
 ];

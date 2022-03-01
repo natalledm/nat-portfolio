@@ -1,12 +1,16 @@
+import '../../styles/components/contact.css';
+
 export default function Contact(contact) {
 
   const { icon, info } = contact;
 
   const iconFile = `icons/${icon}`;
 
-  return(
+  return (
     <div className='contact-container'>
-      <img src={iconFile} alt="" className='contact-icon'/>
+      <span className='icon-image-background'>
+        <img src={iconFile} alt="" className="icon-image" />
+      </span>
       <p className='contact-info'>{info}</p>
     </div>
   );

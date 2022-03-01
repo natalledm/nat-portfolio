@@ -1,0 +1,25 @@
+.contact-container {
+  width: inherit;
+  padding: 1rem;
+}
+
+.icon-image {
+  width: 12px;
+  height: 12px;
+}
+
+.icon-image-background {
+  width: 24px;
+  height: 24px;
+  background-color: var(--very-peri);
+  padding: 0.5rem;
+  border-radius: 100%;
+  margin: 0 1rem 0 2rem;
+}
+
+.contact-info {
+  display: inline;
+  color: var(--very-peri);
+  font-weight: bold;
+}
+
