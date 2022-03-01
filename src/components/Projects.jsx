@@ -1,15 +1,18 @@
 import '../styles/components/projects.css';
-import ProjectCard from './project-components/ProjectCard';
+import { ProjectCardFinished, ProjectCardToBeDone} from './project-components/ProjectCard';
 import { projects } from '../data/projectsData';
 
 export default function Projects() {
 
-  // name, image, isFinished
+  // card builder
   const cards = projects.map((project, index) => {
     const { name, image, isFinished } = project;
-    return <ProjectCard key={index} name={name} image={image} isFinished={isFinished} />
-  });
 
+    
+    if(!isFinished) return <ProjectCardToBeDone key={index} name={name} image={image} isFinished={isFinished} />
+    return <ProjectCardFinished key={index} name={name} image={image} isFinished={isFinished} projectInfo={project} />
+  });
+  
   return (
     <section className="projects">
       <div className="projects-content">
@@ -19,7 +22,7 @@ export default function Projects() {
         </p>
         <div className="projects-cards">
           {cards}
-        </div>
+        </div>        
       </div>
     </section>
   );

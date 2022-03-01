@@ -1,4 +1,4 @@
-import illustration from '../assets/images/illustrations/pale-woman-works-with-computer-small.png';
+import illustration from '../assets/illustrations/pale-woman-works-with-computer-small.png';
 import '../styles/components/about.css';
 
 export default function About() {

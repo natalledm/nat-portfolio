@@ -2,7 +2,9 @@
 
 Hey there! ;)
 
-This is my portfolio made with React. You can visit the page here (tbd) to learn more about me!
+This is my portfolio made with React. It is a **mobile first page**, so please check it out first with your mobile or a mobile screen in your browser.
+
+You can visit the page here (tbd) to learn more about me!
 
 ---
 <br/>

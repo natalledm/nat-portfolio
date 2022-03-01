@@ -1,12 +1,32 @@
 import '../../styles/components/project-card.css';
+import Modal from '../project-components/Modal';
+import { useState } from 'react';
 
-export default function ProjectCard(project) {
-  // think about a way to show different photos or a thumbnail of the project
+export function ProjectCardFinished(project) {
+
+  const { name, image, isFinished, projectInfo } = project;
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  if(isFinished) return (
+    <div className="project-card">
+      <span onClick={() => setIsOpen(true)}>
+        <div className="card-image-container">
+          <img src={image} alt="" className="project-card-image" />
+        </div>
+        <p className="project-card-name">{name}</p>
+      </span>
+      <Modal project={projectInfo} isOpen={isOpen} onClose={() => setIsOpen(false)}/>
+    </div>
+  )
+  return;
+}
+
+export function ProjectCardToBeDone(project) {
+
   const { name, image, isFinished } = project;
-  // onClick em todo o div do card
 
   if (!isFinished) return (
-    // see if need background img in p or I can put a paragraph on top of the img
     <div className="project-card">
       <div className="card-image-container">
         <img src={image} alt="" className="project-card-image not-done" />
@@ -15,13 +35,5 @@ export default function ProjectCard(project) {
       <p className="project-card-name">{name}</p>
     </div>
   );
-
-  return (
-    <div className="project-card">
-      <div className="card-image-container">
-        <img src={image} alt="" className="project-card-image" />
-      </div>
-      <p className="project-card-name">{name}</p>
-    </div>
-  )
+  return;
 }
