@@ -8,8 +8,23 @@
 .about-container {
   margin: 0 2rem;
   padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-paragraph {
   margin-bottom: 2rem;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.about-illustration-second {
+  height: 200px;
+  width: 180px;
 }
