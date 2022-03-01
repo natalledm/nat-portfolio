@@ -1,15 +1,23 @@
-import '../styles/parts/techstack.css';
+import '../styles/components/techstack.css';
+import { techlistData } from '../data/techstackData';
+import TechList from './TechList';
 
 export default function TechStack() {
+
+  const techs = techlistData.map(tech => {
+    const { name, icon } = tech;
+    return <TechList name={name} icon={icon} />
+  });
+
   return (
     <section className="techstack">
-      <div className="techstack-container">
+      <div className="techstack-content">
         <h1>Technologies I use</h1>
         <p className="techstack-paragraph">
-          Here is the techology that I already know and also starting to learn.
+          Here are the techologies that I already know and also those I'm learning right now.
         </p>
         <div className="tech-icons-container">
-          tech icons list here (maybe transform it into a component)
+          {techs}
         </div>
       </div>
     </section>

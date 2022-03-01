@@ -1,5 +1,5 @@
 import illustration from '../assets/images/illustrations/pale-woman-works-with-computer-small.png';
-import '../styles/parts/about.css';
+import '../styles/components/about.css';
 
 export default function About() {
   return (
