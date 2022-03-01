@@ -14,7 +14,7 @@ export default function Projects() {
   });
   
   return (
-    <section className="projects">
+    <section className="projects" id='projects'>
       <div className="projects-content">
         <h1>Projects</h1>
         <p className='project-paragraph'>

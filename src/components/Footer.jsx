@@ -25,7 +25,7 @@ export default function Footer() {
   });
 
   return (
-    <footer className="footer">
+    <footer className="footer" id='contact'>
       <div className="footer-container">
         <div className="footer-contact">
           <h1>Contact Me</h1>
