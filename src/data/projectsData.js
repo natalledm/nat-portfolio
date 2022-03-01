@@ -1,5 +1,6 @@
 export const projects = [
   {
+    "id": 1,
     "name": "EIKA Wishlist",
     "description": "A todo list transformed into wishlist where you can add items and prices, remove items, and hide or show the purchased items",
     "techlist": [
@@ -17,6 +18,7 @@ export const projects = [
     "isFinished": true
   },
   {
+    "id": 2,
     "name": "Foosball Score Keeper",
     "description": "A score keeper for a foosball game. It has two kinds of options for a game: by max points and by 2",
     "techlist": [
@@ -32,6 +34,7 @@ export const projects = [
     "isFinished": true
   },
   {
+    "id": 3,
     "name": "Pomodoro timer",
     "description": "Just a little countdown of 25min with start, pause, restart and stop features",
     "techlist": [
@@ -47,6 +50,7 @@ export const projects = [
     "isFinished": true
   },
   {
+    "id": 4,
     "name": "Pizzeria",
     "description": "Just a little countdown of 25min with start, pause, restart and stop features",
     "techlist": [
@@ -62,6 +66,7 @@ export const projects = [
     "isFinished": false
   },
   {
+    "id": 5,
     "name": "Next project",
     "description": "To be written",
     "techlist": [
@@ -77,6 +82,7 @@ export const projects = [
     "isFinished": false
   },
   {
+    "id": 6,
     "name": "Next project",
     "description": "To be written",
     "techlist": [
@@ -92,6 +98,7 @@ export const projects = [
     "isFinished": false
   },
   {
+    "id": 7,
     "name": "Next project",
     "description": "To be written",
     "techlist": [
