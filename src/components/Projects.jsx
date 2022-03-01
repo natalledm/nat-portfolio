@@ -16,7 +16,7 @@ export default function Projects() {
   return (
     <section className="projects" id='projects'>
       <div className="projects-content">
-        <h1>Projects</h1>
+        <h1 className='projects-title'>Projects</h1>
         <p className='project-paragraph'>
           Here are the projects I will be making during the Frontend course at Novare Potential.
         </p>

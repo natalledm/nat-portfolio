@@ -10,7 +10,7 @@ export default function TechStack() {
   });
 
   return (
-    <section className="techstack">
+    <section className="techstack" id='tech'>
       <div className="techstack-content">
         <h1>Technologies I use</h1>
         <p className="techstack-paragraph">

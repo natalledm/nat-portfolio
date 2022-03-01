@@ -1,7 +1,7 @@
 .techstack {
-  height: fit-content;
+  height: 90%;
   background-color: var(--soft-violet);
-  padding: 2rem;
+  padding: 6rem 2rem 2rem 2rem;
 }
 
 .techstack-paragraph {

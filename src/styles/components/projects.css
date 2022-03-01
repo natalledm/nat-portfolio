@@ -1,12 +1,17 @@
 .projects {
   width: 100%;
-  height: fit-content;
+  height: 95%;
   background: linear-gradient(360deg, #f9f8ff, #e7e5f3, #d5d3e7, #c4c1db, #b2afcf, #a09dc4, #8f8cb8);
   padding-bottom: 5rem;
 }
 
 .projects-content {
+  padding-top: 10%;
   margin: 0 2rem;
+}
+
+.projects-title {
+  padding-top: 2rem;
 }
 
 .project-paragraph {
