@@ -10,12 +10,12 @@ export function ProjectCardFinished(project) {
 
   if(isFinished) return (
     <div className="project-card">
-      <a onClick={() => setIsOpen(true)}>
+      <span onClick={() => setIsOpen(true)}>
         <div className="card-image-container">
           <img src={image} alt="" className="project-card-image" />
         </div>
         <p className="project-card-name">{name}</p>
-      </a>
+      </span>
       <Modal project={projectInfo} isOpen={isOpen} onClose={() => setIsOpen(false)}/>
     </div>
   )
