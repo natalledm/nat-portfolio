@@ -1,17 +1,17 @@
-export const networkInfo = [
+export const networkData = [
 	{
 		"name": "linkedin",
 		"url": "https://www.linkedin.com/in/natalle-moura/",
-		"icon": "linkedin.svg"
+		"icon": "linkedin.png"
 	},
 	{
 		"name": "github",
 		"url": "https://github.com/",
-		"icon": "github.svg"
+		"icon": "github.png"
 	},
 	{
 		"label": "twitter",
 		"url": "https://github.com/",
-		"icon": "twitter.svg"
+		"icon": "twitter.png"
 	},
 ];

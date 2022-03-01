@@ -5,9 +5,9 @@ import { projects } from '../data/projectsData';
 export default function Projects() {
 
   // name, image, isFinished
-  const cards = projects.map(project => {
+  const cards = projects.map((project, index) => {
     const { name, image, isFinished } = project;
-    return <ProjectCard name={name} image={image} isFinished={isFinished} />
+    return <ProjectCard key={index} name={name} image={image} isFinished={isFinished} />
   });
 
   return (

@@ -1,4 +1,4 @@
-export const contactInfo = [
+export const contactData = [
   {
     "icon": "mail.png",
     "info": "natallemoura7@gmail.com"
