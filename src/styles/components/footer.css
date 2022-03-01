@@ -20,11 +20,20 @@
 }
 
 .footer-social {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-color: var(--very-peri);
   text-align: center;
   padding: 2rem;
 }
 
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 1rem 1rem 1rem;
+}
+
 .copyright {
-  padding-top: 2rem;
+  color: var(--soft-white);
 }

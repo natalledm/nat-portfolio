@@ -4,9 +4,9 @@ import TechList from './TechList';
 
 export default function TechStack() {
 
-  const techs = techlistData.map(tech => {
+  const techs = techlistData.map((tech, index) => {
     const { name, icon } = tech;
-    return <TechList name={name} icon={icon} />
+    return <TechList key={index} name={name} icon={icon} />
   });
 
   return (
