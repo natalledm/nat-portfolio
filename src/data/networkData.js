@@ -6,12 +6,12 @@ export const networkData = [
 	},
 	{
 		"name": "github",
-		"url": "https://github.com/",
+		"url": "https://github.com/natalledm",
 		"icon": "github.png"
 	},
 	{
 		"label": "twitter",
-		"url": "https://github.com/",
+		"url": "https://twitter.com/natalledm",
 		"icon": "twitter.png"
 	},
 ];

@@ -29,8 +29,8 @@ export default function Modal(props) {
             <p className="project-description">{description}</p>
             <span className="project-tech">{cssPills}</span>
             <span className="project-links">
-              <a href={hosted} className="project-hosted">Visit Website/App</a>
-              <a href={git} className="project-repo">Git Repository</a>
+              <a href={hosted} className="project-hosted" target="_blank" rel="noreferrer">Visit Website/App</a>
+              <a href={git} className="project-repo" target="_blank" rel="noreferrer">Git Repository</a>
             </span>
           </span>
         </div>

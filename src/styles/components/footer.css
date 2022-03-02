@@ -1,14 +1,7 @@
+/* Main container and contact */
 .footer {
   width: 100%;
   height: fit-content;
-}
-
-.footer-container {
-  padding-top: 5rem;
-}
-
-.footer-contact {
-  margin-left: 2rem;
 }
 
 .footer-paragraph {
@@ -19,13 +12,15 @@
   margin-bottom: 2rem;
 }
 
+/* Social */
+
 .footer-social {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 2rem;
   background-color: var(--very-peri);
   text-align: center;
-  padding: 2rem;
 }
 
 .social-list {
@@ -36,4 +31,21 @@
 
 .copyright {
   color: var(--soft-white);
+}
+
+@media (min-width:600px)  {
+  .footer-contact {
+    padding-left: 10%;
+  }
+
+  .contact-content {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-paragraph {
+    font-size: 2.5rem;
+    width: 30%;
+  }
 }
