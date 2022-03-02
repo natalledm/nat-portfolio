@@ -65,7 +65,7 @@ h2 {
 }
 
 .section-container {
-  margin: 0 2rem;
+  padding: 0 2rem;
   padding-top: 5rem;
   display: flex;
   flex-direction: column;
@@ -86,7 +86,8 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-top: 5rem;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }

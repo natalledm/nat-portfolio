@@ -14,11 +14,11 @@ export default function Projects() {
   });
   
   return (
-    <section className="projects" id='projects'>
-      <div className="projects-content">
+    <section className="projects section-container" id='projects'>
         <h1 className='projects-title'>Projects</h1>
+      <div className="projects-content">
         <p className='project-paragraph'>
-          Here are the projects I will be making during the Frontend course at Novare Potential.
+          Here are the projects I will be making during the Frontend course at Novare Potential and a couple more I did before.
         </p>
         <div className="projects-cards">
           {cards}
