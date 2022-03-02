@@ -12,6 +12,11 @@
   height: 4rem;
 }
 
+.name-item {
+  color: var(--soft-white);
+  display: none;
+}
+
 .navbar-list {
   height: 38px;
   display: flex;
@@ -25,4 +30,66 @@
 .navbar-list-item {
   background-color: var(--very-peri);
   color: var(--soft-white);
+}
+
+@media (min-width:600px) and (max-width:800px)
+{
+  .navbar {
+    background-color: transparent;
+  }
+
+}
+
+
+@media (min-width: 801px) {
+  .navbar {
+    background-color: var(--very-peri);
+    height: 5vh;
+    padding-top: 0.5rem;
+  }
+
+  .navbar-list {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .navbar-list-item {
+    margin-left: 3rem;
+  }
+
+  .logo {
+    height: 5rem;
+  }
+
+/* Order of the items in nav */
+
+  .logo-item {
+    order: 1;
+  }
+
+  .name-item {
+    display: inline;
+    order: 2;
+    flex-grow: 2;
+  }
+
+  .about-item {
+    order: 3;
+  }
+
+  .projects-item {
+    order: 4;
+  }
+
+  .tech-item {
+    order: 5;
+  }
+  
+  .contact-item {
+    order: 6;
+  }
 }
