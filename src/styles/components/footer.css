@@ -1,10 +1,7 @@
+/* Main container and contact */
 .footer {
   width: 100%;
   height: fit-content;
-}
-
-.footer-container {
-  padding-top: 5rem;
 }
 
 .footer-paragraph {
@@ -15,10 +12,13 @@
   margin-bottom: 2rem;
 }
 
+/* Social */
+
 .footer-social {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 2rem;
   background-color: var(--very-peri);
   text-align: center;
 }

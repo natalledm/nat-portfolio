@@ -31,6 +31,7 @@
 
   .tech-icons-container {
     align-self: center;
+    padding-left: 5rem;
     max-width: 50%;
     min-width: 30%;
   }
