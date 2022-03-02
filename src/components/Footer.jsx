@@ -27,13 +27,15 @@ export default function Footer() {
   return (
     <footer className="footer" id='contact'>
       <div className="footer-container">
-        <div className="footer-contact">
+        <div className="footer-contact section-container">
           <h1>Contact Me</h1>
-          <p className="footer-paragraph">
-            Here is my contact information if you are interested in starting a collaboration.
-          </p>
-          <div className="contact-list-containter">
-            {contactInfo}
+          <div className="contact-content">
+            <p className="footer-paragraph">
+              Here is my contact information if you are interested in starting a collaboration.
+            </p>
+            <div className="contact-list-containter">
+              {contactInfo}
+            </div>
           </div>
         </div>
         <div className="footer-social">
