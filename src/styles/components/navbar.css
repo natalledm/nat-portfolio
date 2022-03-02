@@ -15,6 +15,7 @@
 .name-item {
   color: var(--soft-white);
   display: none;
+  font-size: 1.8rem;
 }
 
 .navbar-list {
@@ -59,6 +60,7 @@
 
   .navbar-list-item {
     margin-left: 3rem;
+    font-size: 2rem;
   }
 
   .logo {

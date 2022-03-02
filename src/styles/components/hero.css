@@ -30,3 +30,9 @@
   color: #4d5166;
   text-shadow: 1px 1px 0 var(--soft-white);
 }
+
+@media (min-width: 801px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+}

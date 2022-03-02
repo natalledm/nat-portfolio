@@ -6,7 +6,7 @@ export default function NetworkInfo(socialNetwork) {
 
   return (
     <div className='network-container'>
-      <a href={url} target="_blank">
+      <a href={url} target="_blank " rel="noreferrer">
         <img src={iconPlace} alt="" className='network-icon' />
       </a>
     </div>

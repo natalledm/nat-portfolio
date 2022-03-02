@@ -1,9 +1,10 @@
 :root {
   --very-peri: #6667ab;
   --soft-violet: #8f8cb8;
-  --soft-gray: #EEEEEE;
+  --soft-gray: #eeeeee;
   --soft-white: #f9f8ff;
   --black: #000;
+  font-family: "Quicksand", sans-serif;
 }
 
 *,
@@ -48,8 +49,44 @@ a {
   color: inherit;
 }
 
-h1 {
-  font-size: 2.2rem;
+h1,
+h2,
+h3 {
   font-weight: bold;
   margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+.section-container {
+  margin: 0 2rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width:600px) {
+  h1 {
+    font-size: 5.0rem;
+  }
+
+  h2 {
+    font-size: 4.2rem;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
