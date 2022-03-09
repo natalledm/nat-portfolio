@@ -2,42 +2,24 @@ import "../../styles/components/project-card.css";
 import Modal from "../project-components/Modal";
 import { useState } from "react";
 
-export function ProjectCardFinished(project) {
-  const { name, image, isFinished, projectInfo } = project;
+export default function ProjectCardFinished(item) {
+  const { name, image, isFinished } = item;
 
   const [isOpen, setIsOpen] = useState(false);
 
-  if (isFinished)
-    return (
-      <div className="project-card">
-        <span onClick={() => setIsOpen(true)}>
-          <div className="card-image-container">
-            <img src={image} alt="" className="project-card-image" />
-          </div>
-          <p className="project-card-name">{name}</p>
-        </span>
-        <Modal
-          project={projectInfo}
-          isOpen={isOpen}
-          onClose={() => setIsOpen(false)}
-        />
-      </div>
-    );
-  return;
-}
-
-export function ProjectCardToBeDone(project) {
-  const { name, image, isFinished } = project;
-
-  if (!isFinished)
-    return (
-      <div className="project-card">
+  return (
+    <button
+      className="project-card"
+      onClick={setModal(<ModalProject item={item} />)}
+      dissable
+    >
+      <span>
         <div className="card-image-container">
-          <img src={image} alt="" className="project-card-image not-done" />
-          <p className="project-card-coming-soon">Coming soon</p>
+          {isFinished && <span>Comming soon</span>}
+          <img src={image} alt="" className="project-card-image" />
         </div>
         <p className="project-card-name">{name}</p>
-      </div>
-    );
-  return;
+      </span>
+    </button>
+  );
 }
