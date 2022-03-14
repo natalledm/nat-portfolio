@@ -1,5 +1,5 @@
-import logo from '../assets/logo/logo-white.png';
-import '../styles/components/navbar.css';
+import logo from '../../assets/logo/logo-white.png';
+import './navbar.css';
 
 export default function Navbar() {
   return (

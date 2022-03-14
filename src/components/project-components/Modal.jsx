@@ -1,5 +1,5 @@
 import closeIcon from '../../assets/illustrations/close.png';
-import '../../styles/components/modal.css';
+import './modal.css';
 import React from "react";
 import ReactDOM from "react-dom";
 

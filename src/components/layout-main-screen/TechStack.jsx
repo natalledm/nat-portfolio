@@ -1,6 +1,6 @@
-import '../styles/components/techstack.css';
-import { techlistData } from '../data/techstackData';
-import TechList from './TechList';
+import './techstack.css';
+import { techlistData } from '../../data/techstackData';
+import TechList from '../small-components/TechList';
 
 export default function TechStack() {
 

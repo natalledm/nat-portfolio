@@ -1,12 +1,12 @@
-import '../styles/components/footer.css';
+import './footer.css';
 
 // data files
-import { networkData } from '../data/networkData';
-import { contactData } from '../data/contactData';
+import { networkData } from '../../data/networkData';
+import { contactData } from '../../data/contactData';
 
 // components
-import NetworkInfo from './footer-components/NetworkInfo';
-import Contact from './footer-components/Contact';
+import NetworkInfo from '../small-components/NetworkInfo';
+import Contact from '../small-components/Contact';
 
 export default function Footer() {
 

@@ -1,4 +1,4 @@
-import '../styles/components/techlist.css'
+import './techlist.css';
 
 export default function TechList(tech) {
 

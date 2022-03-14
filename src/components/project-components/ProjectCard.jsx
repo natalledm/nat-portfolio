@@ -1,5 +1,5 @@
-import '../../styles/components/project-card.css';
-import Modal from '../project-components/Modal';
+import './project-card.css';
+import Modal from './Modal';
 import { useState } from 'react';
 
 export function ProjectCardFinished(project) {

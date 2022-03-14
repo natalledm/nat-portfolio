@@ -1,7 +1,7 @@
-import womanComputerMobile from '../assets/illustrations/pale-woman-works-with-computer-small.png';
-import womanComputerDesktop from '../assets/illustrations/pale-woman-works-with-computer.png';
-import womanSelfie from '../assets/illustrations/casual-life-3d-woman-taking-a-funny-photo-with-dog-1.png'
-import '../styles/components/about.css';
+import womanComputerMobile from '../../assets/illustrations/pale-woman-works-with-computer-small.png';
+import womanComputerDesktop from '../../assets/illustrations/pale-woman-works-with-computer.png';
+import womanSelfie from '../../assets/illustrations/casual-life-3d-woman-taking-a-funny-photo-with-dog-1.png'
+import './about.css';
 
 export default function About() {
   return (

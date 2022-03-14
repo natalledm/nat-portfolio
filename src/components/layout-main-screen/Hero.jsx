@@ -1,4 +1,4 @@
-import '../styles/components/hero.css';
+import './hero.css';
 
 export default function Hero() {
   return (

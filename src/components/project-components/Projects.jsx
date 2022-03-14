@@ -1,6 +1,6 @@
-import '../styles/components/projects.css';
-import { ProjectCardFinished, ProjectCardToBeDone} from './project-components/ProjectCard';
-import { projects } from '../data/projectsData';
+import './projects.css';
+import { ProjectCardFinished, ProjectCardToBeDone } from './ProjectCard';
+import { projects } from '../../data/projectsData';
 
 export default function Projects() {
 
