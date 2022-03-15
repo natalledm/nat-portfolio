@@ -1,6 +1,11 @@
 .techstack {
   height: 95%;
-  background-color: var(--soft-violet);
+  background-color: var(--very-peri);
+  color: var(--soft-white);
+}
+
+.techstack-title {
+  padding-bottom: 2rem;
 }
 
 .techstack-paragraph {
@@ -22,6 +27,10 @@
     padding: 10rem 0;
   }
 
+  .techstack-title {
+    padding-bottom: 0;
+  }
+
   .techstack-paragraph {
     align-self: flex-start;
     font-size: 2.5rem;
@@ -32,7 +41,7 @@
   .tech-icons-container {
     align-self: center;
     padding-left: 5rem;
-    max-width: 50%;
+    max-width: 70%;
     min-width: 30%;
   }
 }
