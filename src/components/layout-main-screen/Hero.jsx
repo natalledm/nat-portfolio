@@ -2,11 +2,10 @@ import './hero.css';
 
 export default function Hero() {
   return (
-    <section className='hero' id='hero'>
-      <div className="hero-container">
-        <h1 className="hero-title">Hello there! :) </h1>
-        <h1 className='hero-title'>I’m Natalle,</h1>
-        <h1 className='hero-title'>a Frontend Developer</h1>
+    <section className="hero" id="hero">
+      <div className="hero-title-container">
+        <span className="hero-title-name"> Hi there, I'm Natalle.
+        <span className="hero-title-role">Front-end <span className="hero-title-emphasis">Developer</span>.</span></span>
       </div>
     </section>
   );

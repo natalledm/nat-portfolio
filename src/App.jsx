@@ -4,7 +4,7 @@ import Footer from "./components/layout-main-screen/Footer";
 import Projects from "./components/project-components/Projects";
 import About from "./components/layout-main-screen/About";
 import TechStack from "./components/layout-main-screen/TechStack";
-import "./main.css";
+import "./app.css";
 
 export default function App() {
   return (
