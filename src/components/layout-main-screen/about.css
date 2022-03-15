@@ -1,8 +1,9 @@
 .about {
-  background-color: var(--soft-violet);
+  background-color: var(--very-peri);
   width: 100%;
   height: fit-content;
   padding-bottom: 5rem;
+  color: var(--soft-white);
 }
 
 .about-paragraph {

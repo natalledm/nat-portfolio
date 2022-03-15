@@ -1,4 +1,4 @@
-import logo from '../../assets/logo/logo-white.png';
+import logo from '../../assets/logo/NM.png';
 import './navbar.css';
 
 export default function Navbar() {
@@ -20,8 +20,8 @@ export default function Navbar() {
             <img src={logo} alt="Initial's NM inside a circle" className='logo' />
           </a>
         </li>
-        <li className='name-item'>
-          <span>Natalle Moura</span>
+        <li className='name-spelled-container'>
+          <span className='name-spelled'>Natalle Moura</span>
         </li>
         <li className='navbar-list-item tech-item'>
           <a href="#tech">Tech</a>
