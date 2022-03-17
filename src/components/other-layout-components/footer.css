@@ -33,11 +33,7 @@
   color: var(--soft-white);
 }
 
-@media (min-width:600px)  {
-  .footer-contact {
-    padding-left: 10%;
-  }
-
+@media (min-width: 600px) {
   .contact-content {
     padding-top: 5rem;
     display: flex;

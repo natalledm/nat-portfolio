@@ -1,0 +1,56 @@
+.hero {
+  height: 100vh;
+  max-width: 1080px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../assets/photos/colton-sturgeon-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-title-container {
+  height: 100%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3rem;
+}
+
+.hero-title-name {
+  display: block;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  text-shadow: 1px 1px 0 var(--soft-violet);
+}
+
+.hero-title-role {
+  display: block;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+
+.hero-title-emphasis {
+  font-family: "Permanent Marker", cursive;
+  color: var(--very-peri);
+  text-shadow: 1px 1px 0 var(--soft-white);
+}
+
+.hero-arrow {
+  display: block;
+  position: absolute;
+  right: 50%;
+  bottom: 30px;
+}
+
+@media (min-width: 801px) {
+  .hero-title-name,
+  .hero-title-role,
+  .hero-title-emphasis {
+    font-size: 5rem;
+  }
+}

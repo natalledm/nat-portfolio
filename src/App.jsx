@@ -1,20 +1,20 @@
-import Navbar from "./components/layout-main-screen/Navbar";
-import Hero from "./components/layout-main-screen/Hero";
-import Footer from "./components/layout-main-screen/Footer";
+import Navbar from "./components/other-layout-components/Navbar";
+import Hero from "./components/sections/Hero";
+import Footer from "./components/other-layout-components/Footer";
 import Projects from "./components/project-components/Projects";
-import About from "./components/layout-main-screen/About";
-import TechStack from "./components/layout-main-screen/TechStack";
+import About from "./components/sections/About";
+import TechStack from "./components/sections/TechStack";
 import "./app.css";
 
 export default function App() {
   return (
     <div className="App">
-     <Navbar />
-     <Hero />
-     <About />
-     <Projects />
-     <TechStack />
-     <Footer />
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <TechStack />
+      <Footer />
     </div>
   );
 }

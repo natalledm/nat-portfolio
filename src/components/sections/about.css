@@ -1,18 +1,6 @@
 .about {
   background-color: var(--very-peri);
-  width: 100%;
-  height: fit-content;
-  padding-bottom: 5rem;
   color: var(--soft-white);
-}
-
-.about-title-container {
-  padding-bottom: 2rem;
-}
-
-.about-paragraph {
-  margin-bottom: 2rem;
-  font-size: 1.8rem;
 }
 
 .about-img-desktop {
@@ -22,7 +10,6 @@
 .about-img-mobile {
   height: 300px;
   width: 300px;
-  align-self: center;
 }
 
 .about-content-container {
@@ -32,21 +19,9 @@
   justify-content: center;
 }
 
-@media (min-width:720px) {
-  
-  .about-title-container {
-    width: 100%;
-    padding-bottom: 0;
-  }
-
-  .about-content-container {
-    flex-wrap: nowrap;
-    gap: 10rem;
-  } 
-
+@media (min-width: 600px) {
   .about-paragraph {
     align-self: start;
-    font-size: 2.5rem;
   }
 
   .about-img-desktop {
