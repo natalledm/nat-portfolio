@@ -8,6 +8,7 @@
     url("../../assets/photos/colton-sturgeon-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .hero-title-container {
@@ -40,11 +41,26 @@
   text-shadow: 1px 1px 0 var(--soft-white);
 }
 
-.hero-arrow {
-  display: block;
+.divider-bottom {
   position: absolute;
-  right: 50%;
-  bottom: 30px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  display: none;
+}
+
+.divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 180px;
+}
+
+.divider-bottom .shape-fill {
+  fill: #d7d5eb;
 }
 
 @media (min-width: 801px) {
@@ -52,5 +68,9 @@
   .hero-title-role,
   .hero-title-emphasis {
     font-size: 5rem;
+  }
+
+  .divider-bottom {
+    display: inline;
   }
 }

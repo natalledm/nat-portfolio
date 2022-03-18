@@ -1,6 +1,7 @@
 .techstack {
   height: fit-content;
   background-color: var(--soft-violet);
+  position: relative;
 }
 
 .techstack-title {
@@ -17,6 +18,29 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.custom-shape-divider-bottom--thin {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  display: none;
+}
+
+.custom-shape-divider-bottom--thin svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 58px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom--thin .shape-fill {
+  fill: var(--very-peri);
 }
 
 @media (min-width: 600px) {
@@ -48,5 +72,9 @@
     align-self: center;
     max-width: 70%;
     padding: 0;
+  }
+
+  .custom-shape-divider-bottom--thin {
+    display: inline;
   }
 }

@@ -1,3 +1,7 @@
+.about {
+  position: relative;
+}
+
 .about-img-desktop {
   display: none;
 }
@@ -16,6 +20,28 @@
 
 .about-paragraph {
   padding-bottom: 2rem;
+}
+
+.shape-divider-bottom--thin {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.shape-divider-bottom--thin svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 58px;
+}
+
+.shape-divider-bottom--thin .shape-fill {
+  fill: var(--very-peri);
 }
 
 @media (min-width: 600px) {
@@ -42,5 +68,9 @@
     max-width: 80%;
     gap: 2rem;
     padding: 5rem 0;
+  }
+
+  .shape-divider-bottom--thin {
+    display: inline;
   }
 }

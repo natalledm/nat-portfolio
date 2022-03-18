@@ -3,6 +3,7 @@
   height: fit-content;
   background-color: var(--very-peri);
   padding-bottom: 5rem;
+  position: relative;
 }
 
 .project-paragraph {
@@ -14,6 +15,28 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.shape-divider-bottom--thin {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  display: none;
+}
+
+.shape-divider-bottom--thin svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 58px;
+}
+
+.shape-divider-bottom--thin .shape-fill {
+  fill: #d7d5eb;
 }
 
 @media (min-width: 600px) {
@@ -39,5 +62,9 @@
   .projects-cards {
     max-width: 70%;
     justify-content: space-evenly;
+  }
+
+  .shape-divider-bottom--thin {
+    display: inline;
   }
 }
