@@ -1,4 +1,3 @@
-import arrow from '../../assets/illustrations/arrow-thin.svg';
 import './hero.css';
 
 export default function Hero() {

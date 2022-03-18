@@ -2,38 +2,36 @@ import './project-card.css';
 import Modal from './Modal';
 import { useState } from 'react';
 
-export function ProjectCardFinished(project) {
+export default function ProjectCard(props) {
 
-  const { name, image, isFinished, projectInfo } = project;
+  const { name, image, isFinished } = props.item;
+
+  const cardImage = require(`../../assets/${image}`);
 
   const [isOpen, setIsOpen] = useState(false);
 
-  if(isFinished) return (
-    <div className="project-card">
-      <span onClick={() => setIsOpen(true)}>
+  let imageClasses = "project-card-image ";
+  const classImgNotDone = "not-done";
+
+  if (!isFinished) {
+    imageClasses += classImgNotDone;
+  } else {
+    imageClasses = "project-card-image";
+  }
+
+  return (
+    <>
+      <button
+        className="project-card"
+        onClick={() => setIsOpen(true)}
+      >
         <div className="card-image-container">
-          <img src={image} alt="" className="project-card-image" />
+          <img src={cardImage} alt="" className={imageClasses} />
+          {!isFinished && <p className='project-card-coming-soon'>Coming soon</p>}
         </div>
         <p className="project-card-name">{name}</p>
-      </span>
-      <Modal project={projectInfo} isOpen={isOpen} onClose={() => setIsOpen(false)}/>
-    </div>
+      </button>
+      {isFinished && <Modal project={props.item} isOpen={isOpen} onClose={() => setIsOpen(false)} />}
+    </>
   )
-  return;
-}
-
-export function ProjectCardToBeDone(project) {
-
-  const { name, image, isFinished } = project;
-
-  if (!isFinished) return (
-    <div className="project-card">
-      <div className="card-image-container">
-        <img src={image} alt="" className="project-card-image not-done" />
-        <p className='project-card-coming-soon'>Coming soon</p>
-      </div>
-      <p className="project-card-name">{name}</p>
-    </div>
-  );
-  return;
 }

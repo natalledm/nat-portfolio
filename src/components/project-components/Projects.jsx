@@ -1,18 +1,17 @@
 import "./projects.css";
-import { ProjectCardFinished, ProjectCardToBeDone } from "./ProjectCard";
+import ProjectCard from "./ProjectCard";
 import projects from "../../data/projectsData.json";
 
 export default function Projects() {
 
   // card builder
-  const cards = projects.map((project, index) => {
-    const { name, image, isFinished } = project;
+  const cards = projects.map((item, index) => <ProjectCard item={item} key={index} />);
 
-    const cardImage = require(`../../assets/${image}`)
+  // const cardImage = require(`../../assets/${image}`)
 
-    if (!isFinished) return <ProjectCardToBeDone key={index} name={name} image={cardImage} isFinished={isFinished} />
-    return <ProjectCardFinished key={index} name={name} image={cardImage} isFinished={isFinished} projectInfo={project} />
-  });
+  // if (!isFinished) return <ProjectCardToBeDone key={index} name={name} image={cardImage} isFinished={isFinished} />
+  // return <ProjectCardFinished key={index} name={name} image={cardImage} isFinished={isFinished} projectInfo={project} />
+
 
   return (
     <section className="projects section-container" id="projects">
