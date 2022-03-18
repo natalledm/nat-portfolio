@@ -1,13 +1,3 @@
-.techstack {
-  height: 95%;
-  background-color: var(--very-peri);
-  color: var(--soft-white);
-}
-
-.techstack-title {
-  padding-bottom: 2rem;
-}
-
 .techstack-paragraph {
   padding: 0 2rem 2rem 0;
 }
@@ -19,16 +9,12 @@
   justify-content: space-around;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
   .techstack-content {
     display: flex;
     flex-direction: row;
     max-width: 80%;
     padding: 10rem 0;
-  }
-
-  .techstack-title {
-    padding-bottom: 0;
   }
 
   .techstack-paragraph {

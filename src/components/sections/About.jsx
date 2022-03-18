@@ -7,7 +7,7 @@ export default function About() {
     <section className='about section-container' id='about'>
       <img src={womanComputerMobile} alt="Woman works with computer" className='about-img-mobile' />
       <div className='about-title-container'>
-        <h1 className='about-title'>About me</h1>
+        <h2 className='about-title'>About me</h2>
       </div>
       <div className="about-content-container">
         <div>

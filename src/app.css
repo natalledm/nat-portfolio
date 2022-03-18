@@ -49,11 +49,12 @@ h3 {
 }
 
 h1 {
-  font-size: 3.4rem;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 3.4rem;
+  padding-bottom: 2rem;
 }
 
 /* General layout organization */
@@ -77,11 +78,11 @@ h2 {
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   h2 {
-    font-size: 4.2rem;
+    font-size: 5rem;
   }
 
   p {
