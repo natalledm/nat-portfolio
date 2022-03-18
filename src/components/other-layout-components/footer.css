@@ -1,0 +1,26 @@
+.footer-container {
+  background-color: var(--soft-violet);
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.8rem;
+  width: 200px;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .contact-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .copyright {
+    font-size: 2rem;
+  }
+}

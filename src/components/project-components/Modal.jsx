@@ -1,5 +1,5 @@
 import closeIcon from '../../assets/illustrations/close.png';
-import '../../styles/components/modal.css';
+import './modal.css';
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -8,6 +8,8 @@ export default function Modal(props) {
   const { isOpen, onClose, project } = props;
 
   const { name, description, screenshot, alt, techlist, hosted, git } = project;
+
+  const printURL = require(`../../assets/${screenshot}`);
 
   const cssPills = techlist.map(tech => {
     return (<span key={tech} className="tech-css-pills">
@@ -23,8 +25,8 @@ export default function Modal(props) {
       <section className="modal">
         <div className="modal-content">
           <span onClick={onClose}><img src={closeIcon} alt="" className='modal-close-button' /></span>
-          <img src={screenshot} alt={alt} className="modal-image" />
-          <h2 className="project-title">{name}</h2>
+          <img src={printURL} alt={alt} className="modal-image" />
+          <h3 className="project-title">{name}</h3>
           <span className="project-description-container">
             <p className="project-description">{description}</p>
             <span className="project-tech">{cssPills}</span>
