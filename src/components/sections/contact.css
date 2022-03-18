@@ -28,8 +28,15 @@
     gap: 5rem;
   }
 
+  .contact-title {
+    align-self: flex-start;
+    margin-left: 10%;
+    padding-bottom: 4rem;
+  }
+
   .contact-paragraph {
     flex-grow: 1;
+    align-self: flex-start;
   }
 
   .contact-list-containter {

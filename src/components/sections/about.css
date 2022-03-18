@@ -14,18 +14,33 @@
   justify-content: center;
 }
 
+.about-paragraph {
+  padding-bottom: 2rem;
+}
+
 @media (min-width: 600px) {
-  .about-paragraph {
-    align-self: start;
+  .about-title {
+    align-self: flex-start;
+    margin-left: 10%;
+    padding-bottom: 4rem;
   }
 
   .about-img-desktop {
     display: inline;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
+    align-self: baseline;
   }
 
   .about-img-mobile {
     display: none;
+  }
+
+  .about-content-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    gap: 2rem;
+    padding: 5rem 0;
   }
 }

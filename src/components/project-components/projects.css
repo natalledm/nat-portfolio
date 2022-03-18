@@ -18,7 +18,9 @@
 
 @media (min-width: 600px) {
   .projects-title {
-    padding-top: 2rem;
+    align-self: flex-start;
+    margin-left: 10%;
+    padding-bottom: 4rem;
   }
 
   .projects-content {

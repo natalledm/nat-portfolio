@@ -25,9 +25,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 90%;
+    max-width: 80%;
     padding: 5rem 0;
     gap: 1rem;
+  }
+
+  .techstack-title {
+    align-self: flex-start;
+    margin-left: 10%;
+    padding-bottom: 4rem;
   }
 
   .techstack-paragraph {
