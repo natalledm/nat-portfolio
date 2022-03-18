@@ -1,4 +1,4 @@
-export const techlistData = [
+[
   {
     "name": "Javascript",
     "icon": "javascript.png"
@@ -16,8 +16,8 @@ export const techlistData = [
     "icon": "firebase.png"
   },
   {
-    "name": "CSS",
-    "icon": "css-icon.png"
+    "name": "CSS3",
+    "icon": "css.png"
   },
   {
     "name": "Sass",
@@ -30,13 +30,5 @@ export const techlistData = [
   {
     "name": "Typescript",
     "icon": "typescript.png"
-  },
-  {
-    "name": "TBD",
-    "icon": "no-icon.png"
-  },
-  {
-    "name": "TBD",
-    "icon": "no-icon.png"
-  },
-];
+  }
+]

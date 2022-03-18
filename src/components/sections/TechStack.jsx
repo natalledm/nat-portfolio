@@ -1,13 +1,11 @@
-import './techstack.css';
-import { techlistData } from '../../data/techstackData';
+import techstackData from '../../data/techstackData.json';
 import TechList from '../small-components/TechList';
+import './techstack.css';
 
 export default function TechStack() {
 
-  const techs = techlistData.map((tech, index) => {
-    const { name, icon } = tech;
-    return <TechList key={index} name={name} icon={icon} />
-  });
+
+  const techs = techstackData.map(tech => <TechList key={tech.name} name={tech.name} icon={tech.icon} />);
 
   return (
     <section className="techstack section-container" id='tech'>
