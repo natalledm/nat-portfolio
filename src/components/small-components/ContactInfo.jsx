@@ -4,7 +4,7 @@ export default function ContactInfo(contact) {
 
   const { icon, info } = contact;
 
-  const iconFile = `icons/${icon}`;
+  const iconFile = require(`../../assets/icons/${icon}`);
 
   return (
     <div className="contact-info-container">

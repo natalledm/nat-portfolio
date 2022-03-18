@@ -2,7 +2,7 @@ export default function NetworkInfo(socialNetwork) {
 
   const { icon, url, alt } = socialNetwork;
 
-  const iconPlace = `icons/${icon}`;
+  const iconPlace = require(`../../assets/icons/${icon}`);
 
   return (
     <div className='network-container'>

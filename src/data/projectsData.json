@@ -1,4 +1,4 @@
-export const projects = [
+[
   {
     "id": 1,
     "name": "EIKA Wishlist",
@@ -10,8 +10,8 @@ export const projects = [
       "Firebase",
       "Figma"
     ],
-    "image": "images/photos/nathan-oakley-unsplash.jpg",
-    "screenshot": "images/projects-ss/eika-ss.png",
+    "image": "photos/nathan-oakley-unsplash.jpg",
+    "screenshot": "projects-print/eika-ss.png",
     "alt": "to be written",
     "hosted": "https://eika-wish-list.web.app/",
     "git": "https://github.com/natalledm/wishlist-eika",
@@ -26,8 +26,8 @@ export const projects = [
       "CSS",
       "Github Pages"
     ],
-    "image": "images/photos/gabriella-clare-marino-unsplash.jpg",
-    "screenshot": "images/projects-ss/foosball-ss.png",
+    "image": "photos/gabriella-clare-marino-unsplash.jpg",
+    "screenshot": "projects-print/foosball-ss.png",
     "alt": "to be written",
     "hosted": "https://natalledm.github.io/foosball-score-keeper/",
     "git": "https://github.com/natalledm/foosball-score-keeper",
@@ -42,8 +42,8 @@ export const projects = [
       "CSS",
       "Github Pages"
     ],
-    "image": "images/photos/elena-koycheva-unsplash.jpg",
-    "screenshot": "images/projects-ss/pomodoro-ss.png",
+    "image": "photos/elena-koycheva-unsplash.jpg",
+    "screenshot": "projects-print/pomodoro-ss.png",
     "alt": "to be written",
     "hosted": "https://natalledm.github.io/pomodoro/",
     "git": "https://github.com/natalledm/pomodoro",
@@ -58,7 +58,7 @@ export const projects = [
       "CSS",
       "Github Pages"
     ],
-    "image": "images/photos/lorenzo-herrera-unsplash.jpg",
+    "image": "photos/lorenzo-herrera-unsplash.jpg",
     "screenshot": "to be taken",
     "alt": "to be written",
     "hosted": "https://natalledm.github.io/pomodoro/",
@@ -74,7 +74,7 @@ export const projects = [
       "CSS",
       "Github Pages"
     ],
-    "image": "images/photos/lorenzo-herrera-unsplash.jpg",
+    "image": "photos/lorenzo-herrera-unsplash.jpg",
     "screenshot": "to be taken",
     "alt": "to be written",
     "hosted": "https://natalledm.github.io/pomodoro/",
@@ -90,7 +90,7 @@ export const projects = [
       "CSS",
       "Github Pages"
     ],
-    "image": "images/photos/lorenzo-herrera-unsplash.jpg",
+    "image": "photos/lorenzo-herrera-unsplash.jpg",
     "screenshot": "to be taken",
     "alt": "to be written",
     "hosted": "https://natalledm.github.io/pomodoro/",
@@ -106,11 +106,11 @@ export const projects = [
       "CSS",
       "Github Pages"
     ],
-    "image": "images/photos/lorenzo-herrera-unsplash.jpg",
+    "image": "photos/lorenzo-herrera-unsplash.jpg",
     "screenshot": "to be taken",
     "alt": "to be written",
     "hosted": "https://natalledm.github.io/pomodoro/",
     "git": "https://github.com/natalledm/pomodoro",
     "isFinished": false
-  },
-];
+  }
+]

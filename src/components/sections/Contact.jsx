@@ -1,15 +1,11 @@
-import { contactData } from "../../data/contactData";
+import contactData from "../../data/contactData.json";
 import ContactInfo from "../small-components/ContactInfo";
 import "./contact.css";
 
 export default function Contact() {
 
-  const contactItem = contactData.map((contact, index) => {
-    const { icon, info } = contact;
-    return (
-      <ContactInfo key={index} icon={icon} info={info} />
-    );
-  });
+  const contactItem = contactData.map((contact, index) => <ContactInfo key={index} icon={contact.icon} info={contact.info} />);
+
 
 
   return (

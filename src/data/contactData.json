@@ -1,4 +1,4 @@
-export const contactData = [
+[
   {
     "icon": "mail.png",
     "info": "natallemoura7@gmail.com"
@@ -10,5 +10,5 @@ export const contactData = [
   {
     "icon": "map-pin.png",
     "info": "Stockholm, Sweden"
-  },
-];
+  }
+]

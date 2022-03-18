@@ -1,4 +1,4 @@
-export const networkData = [
+[
 	{
 		"name": "linkedin",
 		"url": "https://www.linkedin.com/in/natalle-moura/",
@@ -16,5 +16,5 @@ export const networkData = [
 		"url": "https://twitter.com/natalledm",
 		"alt": "Twitter",
 		"icon": "twitter.png"
-	},
-];
+	}
+]
