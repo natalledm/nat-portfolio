@@ -12,10 +12,10 @@
   background-color: var(--soft-violet);
   padding: 2px 6px;
   border-radius: 100%;
-  margin: 0 1rem 0 2rem;
+  margin-right: 1rem;
 }
 
 .contact-info {
   display: inline;
-  font-weight: bold;
+  font-size: 2rem;
 }

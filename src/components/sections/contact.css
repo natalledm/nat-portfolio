@@ -1,3 +1,38 @@
 .contact-container {
   background-color: var(--very-peri);
 }
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-paragraph {
+  width: 80%;
+  text-align: center;
+}
+
+.contact-list-containter {
+  min-width: 350px;
+}
+
+@media (min-width: 600px) {
+  .contact-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    padding: 10rem 0;
+    gap: 5rem;
+  }
+
+  .contact-paragraph {
+    flex-grow: 1;
+  }
+
+  .contact-list-containter {
+    flex-grow: 2;
+  }
+}
