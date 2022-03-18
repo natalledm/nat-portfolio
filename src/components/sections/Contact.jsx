@@ -6,10 +6,8 @@ export default function Contact() {
 
   const contactItem = contactData.map((contact, index) => <ContactInfo key={index} icon={contact.icon} info={contact.info} />);
 
-
-
   return (
-    <div className="contact-container section-container">
+    <div className="contact-container section-container" id="contact">
       <h2 className="contact-title">Contact me</h2>
       <div className="contact-content">
         <p className="contact-paragraph">

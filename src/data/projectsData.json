@@ -1,20 +1,21 @@
 [
   {
     "id": 1,
-    "name": "EIKA Wishlist",
-    "description": "A todo list transformed into wishlist where you can add items and prices, remove items, and hide or show the purchased items",
+    "name": "Tapioca Vegan Restaurant",
+    "description": "Tapioca is a vegan restaurant specialized in tapioca dishes!",
     "techlist": [
       "Javascript",
       "React",
       "CSS",
       "Firebase",
-      "Figma"
+      "Figma",
+      "JSON"
     ],
-    "image": "photos/nathan-oakley-unsplash.jpg",
-    "screenshot": "projects-print/eika-ss.png",
-    "alt": "to be written",
-    "hosted": "https://eika-wish-list.web.app/",
-    "git": "https://github.com/natalledm/wishlist-eika",
+    "image": "photos/tapioca.jpg",
+    "screenshot": "projects-print/tapioca-restaurant.png",
+    "alt": "Tapioca vegan restaurant",
+    "hosted": "https://tapioca-restaurant.web.app/",
+    "git": "https://github.com/natalledm/tapioca-restaurant",
     "isFinished": true
   },
   {
@@ -51,19 +52,21 @@
   },
   {
     "id": 4,
-    "name": "Pizzeria",
-    "description": "Just a little countdown of 25min with start, pause, restart and stop features",
+    "name": "EIKA Wishlist",
+    "description": "A todo list transformed into wishlist where you can add items and prices, remove items, and hide or show the purchased items",
     "techlist": [
       "Javascript",
+      "React",
       "CSS",
-      "Github Pages"
+      "Firebase",
+      "Figma"
     ],
-    "image": "photos/lorenzo-herrera-unsplash.jpg",
-    "screenshot": "to be taken",
+    "image": "photos/nathan-oakley-unsplash.jpg",
+    "screenshot": "projects-print/eika-ss.png",
     "alt": "to be written",
-    "hosted": "https://natalledm.github.io/pomodoro/",
-    "git": "https://github.com/natalledm/pomodoro",
-    "isFinished": false
+    "hosted": "https://eika-wish-list.web.app/",
+    "git": "https://github.com/natalledm/wishlist-eika",
+    "isFinished": true
   },
   {
     "id": 5,

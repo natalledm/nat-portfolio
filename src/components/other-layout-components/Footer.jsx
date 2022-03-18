@@ -11,7 +11,7 @@ export default function Footer() {
   const socialNetwork = networkData.map((network, index) => <NetworkInfo key={index} icon={network.icon} url={network.url} />);
 
   return (
-    <footer className="footer-container" id="contact">
+    <footer className="footer-container">
       <div className="social-list">
         {socialNetwork}
       </div>
