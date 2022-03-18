@@ -26,11 +26,8 @@
     align-items: center;
     justify-content: center;
     max-width: 90%;
+    padding: 5rem 0;
     gap: 1rem;
-  }
-
-  .techstack-title {
-    padding-bottom: 4rem;
   }
 
   .techstack-paragraph {
