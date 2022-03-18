@@ -1,15 +1,16 @@
 .techlist {
-  width: 95px;
-  height: 95px;
-  padding: 7px;
+  width: 100px;
+  height: 100px;
   text-align: center;
+  margin: 10px;
 }
 
 .tech-image {
-  width: 50px;
-  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .tech-name {
   padding-top: 5px;
+  font-size: 2rem;
 }
