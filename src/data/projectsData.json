@@ -1,6 +1,25 @@
 [
   {
     "id": 1,
+    "name": "Kiki's Instapaket tracker",
+    "description": "A website that fetch data from an api and displays all the parcels and their info, with personalized map included!",
+    "techlist": [
+      "Javascript",
+      "React",
+      "CSS",
+      "Firebase",
+      "Figma",
+      "JSON"
+    ],
+    "image": "photos/simone-secci-unsplash.jpg",
+    "screenshot": "projects-print/ss-kiki-tracker.png",
+    "alt": "Kiki's instapaket tracker",
+    "hosted": "https://kiki-parcel-tracker.web.app/",
+    "git": "https://github.com/natalledm/instapaket-package-tracker",
+    "isFinished": true
+  },
+  {
+    "id": 2,
     "name": "Tapioca Vegan Restaurant",
     "description": "Tapioca is a vegan restaurant specialized in tapioca dishes!",
     "techlist": [
@@ -19,7 +38,7 @@
     "isFinished": true
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Foosball Score Keeper",
     "description": "A score keeper for a foosball game. It has two kinds of options for a game: by max points and by 2",
     "techlist": [
@@ -35,7 +54,7 @@
     "isFinished": true
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Pomodoro timer",
     "description": "Just a little countdown of 25min with start, pause, restart and stop features",
     "techlist": [
@@ -51,7 +70,7 @@
     "isFinished": true
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "EIKA Wishlist",
     "description": "A todo list transformed into wishlist where you can add items and prices, remove items, and hide or show the purchased items",
     "techlist": [
@@ -67,22 +86,6 @@
     "hosted": "https://eika-wish-list.web.app/",
     "git": "https://github.com/natalledm/wishlist-eika",
     "isFinished": true
-  },
-  {
-    "id": 5,
-    "name": "Next project",
-    "description": "To be written",
-    "techlist": [
-      "Javascript",
-      "CSS",
-      "Github Pages"
-    ],
-    "image": "photos/lorenzo-herrera-unsplash.jpg",
-    "screenshot": "to be taken",
-    "alt": "to be written",
-    "hosted": "https://natalledm.github.io/pomodoro/",
-    "git": "https://github.com/natalledm/pomodoro",
-    "isFinished": false
   },
   {
     "id": 6,
