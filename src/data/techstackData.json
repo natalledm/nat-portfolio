@@ -30,5 +30,9 @@
   {
     "name": "Typescript",
     "icon": "typescript.png"
+  },
+  {
+    "name": "Jest",
+    "icon": "jest.png"
   }
 ]
