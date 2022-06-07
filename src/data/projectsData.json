@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "EIKA Shop List Redo",
+    "name": "EIKA Wishlist 2.0 (redo)",
     "description": "This is the Eika's shopping list, an app that helps you save the items you want to purchase during the walk inside Eika.",
     "techlist": [
       "Javascript",
@@ -90,7 +90,7 @@
   },
   {
     "id": 6,
-    "name": "Eika wishlist",
+    "name": "Eika wishlist 1.0",
     "description": "A todo list transformed into wishlist where you can add items and prices, remove items, and hide or show the purchased items",
     "techlist": [
       "Javascript",
@@ -108,6 +108,60 @@
   },
   {
     "id": 7,
+    "name": "El Gaucho Restaurant",
+    "description": "This is El Gaucho restaurant website, where you can see the complete menu. The data is created dynamically through an admin page connected to the firestore database.",
+    "techlist": [
+      "Javascript",
+      "React",
+      "CSS",
+      "Firebase",
+      "Figma"
+    ],
+    "image": "photos/danny-de-jong-unsplash.jpg",
+    "screenshot": "projects-print/el-gaucho.png",
+    "alt": "El Gaucho Restaurant",
+    "hosted": "https://el-gaucho-bbq.web.app/",
+    "git": "https://github.com/natalledm/el-gaucho-bbq",
+    "isFinished": true
+  },
+  {
+    "id": 8,
+    "name": "Creative Writing LMS",
+    "description": "A Learning Management System for Creative Writing! The data is created dynamically through an admin page connected to the firestore database.",
+    "techlist": [
+      "Javascript",
+      "React",
+      "CSS",
+      "Firebase",
+      "Figma"
+    ],
+    "image": "photos/colton-sturgeon-unsplash.jpg",
+    "screenshot": "projects-print/creative-writing.png",
+    "alt": "Creative Writing LMS",
+    "hosted": "https://learning-ms-creative-writing.web.app/",
+    "git": "https://github.com/natalledm/creative-writing-LMS",
+    "isFinished": true
+  },
+  {
+    "id": 9,
+    "name": "Netflix Clone",
+    "description": "This is Nättflix website, where you can sign up to watch series and movies to enjoy!The data is created dynamically through an admin page connected to the firestore database.",
+    "techlist": [
+      "Javascript",
+      "React",
+      "CSS",
+      "Firebase",
+      "Figma"
+    ],
+    "image": "photos/thibault-penin-unsplash.jpg",
+    "screenshot": "projects-print/netflix-clone.png",
+    "alt": "Netflix clone",
+    "hosted": "https://netflix-clone-project-825bf.web.app/",
+    "git": "https://github.com/natalledm/netflix-clone-project",
+    "isFinished": true
+  },
+  {
+    "id": 10,
     "name": "Next project",
     "description": "To be written",
     "techlist": [
